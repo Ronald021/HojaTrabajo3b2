@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿﻿using System;
 using miPrograma1.Properties.service;
 
 namespace miPrograma1
@@ -8,9 +7,9 @@ namespace miPrograma1
     {
         public static void Main(string[] args)
         {
-            convert hi = new convert();
-            hi.create(args);
-            
+            String form = args[(args.Length - 1)];
+            formatMaker hi = new formatMaker();
+            hi.convert(args,form);
         }
     }
 }

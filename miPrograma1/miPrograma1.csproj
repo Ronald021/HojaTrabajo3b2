@@ -39,7 +39,14 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Properties\service\createFormat.cs" />
         <Compile Include="Properties\service\csvFormater.cs" />
+        <Compile Include="Properties\service\format.cs" />
+        <Compile Include="Properties\service\formatDecorator.cs" />
+        <Compile Include="Properties\service\formatMaker.cs" />
+        <Compile Include="Properties\service\htmlFormater.cs" />
+        <Compile Include="Properties\service\jsonFormater.cs" />
+        <Compile Include="Properties\service\xmlFormater.cs" />
         <Compile Include="Properties\view\Program.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
